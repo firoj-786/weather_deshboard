@@ -2,6 +2,8 @@
 
 This project uses a CSV file containing hourly weather data to visualize key weather trends such as temperature, apparent temperature, humidity, and wind speed over time.
 
+use OpenWeather API key
+
 
 The dataset includes the following columns:
 
@@ -43,5 +45,4 @@ pip install pandas matplotlib seaborn
 📁 weather-visualizer/
 │
 ├── weather_visualization.py   # Main Python script
-├── weather_data.csv           # Your weather dataset
 └── README.md                  # This readme file
